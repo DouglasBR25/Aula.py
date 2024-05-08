@@ -1,0 +1,5 @@
+valor_prestacao = float ( input('Valor da prestação:'))
+multa = float ( input('Porcentagem de multa:'))
+qtde_dias = float ( input('Dias de atrasos:'))
+resultado = valor_prestacao + (valor_prestacao *(multa/100)*qtde_dias)
+print('Valor da prestação atualizado: ', resultado)

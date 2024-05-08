@@ -1,0 +1,10 @@
+n1 = float(input('Digite sua primeiro valor '))
+n2 = input('Digite sua segundo valor ')
+n2 = float(n2)
+#saida 
+print('Soma: ', (n1+n2))
+print('Subtração: ', (n1-n2))
+print('Multiplicação: ', (n1*n2))
+print('Divisão ', (n1/n2))
+print('Parte inteira: ', (n1//n2))
+print('Resto da divisão: ', (n1%n2))
